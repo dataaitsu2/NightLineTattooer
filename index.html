@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nightline Tattooer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Bebas+Neue&family=DM+Mono:wght@300;400&family=Noto+Sans+Georgian:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">Nightline</div>
+    <div class="nav-links">
+      <a href="#portfolio" data-en="Work" data-ka="ნამუშევრები">Work</a>
+      <a href="#about" data-en="About" data-ka="ჩვენს შესახებ">About</a>
+      <a href="#contact" data-en="Contact" data-ka="კონტაქტი">Contact</a>
+    </div>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button class="lang-btn active" id="btnEN" onclick="setLang('en')">EN</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" id="btnKA" onclick="setLang('ka')">ქა</button>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#portfolio" class="mm-link" data-en="Work" data-ka="ნამუშევრები">Work</a>
+    <a href="#about" class="mm-link" data-en="About" data-ka="ჩვენს შესახებ">About</a>
+    <a href="#contact" class="mm-link" data-en="Contact" data-ka="კონტაქტი">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-text">TATTOO</div>
+    <div class="hero-content">
+      <p class="hero-sub" data-en="Est. 2022 · Handcrafted Ink" data-ka="დაარსდა 2022 · ხელნაკეთი ნამუშევრები">Est. 2022 · Handcrafted Ink</p>
+      <h1 class="hero-title">Nightline<br/><em data-en="Tattooer" data-ka="ტატუირება">Tattooer</em></h1>
+      <p class="hero-desc" data-en="Fine-line, blackwork & dark realism.<br/>Each piece is a permanent story." data-ka="წვრილი ხაზი, ბლეკვორქი და მუქი რეალიზმი.<br/>თითოეული ნამუშევარი მუდმივი ისტორიაა.">Fine-line, blackwork &amp; dark realism.<br/>Each piece is a permanent story.</p>
+      <a href="#portfolio" class="hero-cta" data-en="View Portfolio" data-ka="პორტფოლიოს ნახვა">View Portfolio</a>
+    </div>
+    <div class="hero-scroll" data-en="↓ scroll" data-ka="↓ გადაახვიე">&#8595; scroll</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Fine Line</span><span>&middot;</span>
+      <span>Blackwork</span><span>&middot;</span>
+      <span>Dark Realism</span><span>&middot;</span>
+      <span>Geometric</span><span>&middot;</span>
+      <span>Minimalist</span><span>&middot;</span>
+      <span>Ornamental</span><span>&middot;</span>
+      <span>Fine Line</span><span>&middot;</span>
+      <span>Blackwork</span><span>&middot;</span>
+      <span>Dark Realism</span><span>&middot;</span>
+      <span>Geometric</span><span>&middot;</span>
+      <span>Minimalist</span><span>&middot;</span>
+      <span>Ornamental</span><span>&middot;</span>
+    </div>
+  </div>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 data-en="Portfolio" data-ka="პორტფოლიო">Portfolio</h2>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 data-en="About" data-ka="ჩვენს შესახებ">About</h2>
+    </div>
+    <div class="about-inner">
+      <div class="about-img-wrap">
+        <img src="1773327651903.png" alt="Artist Photo" class="about-img">
+      </div>
+      <div class="about-text">
+        <h3>
+          <span data-en="Ink that" data-ka="მელანი, რომელიც">Ink that</span><br/>
+          <em data-en="lasts forever" data-ka="სამუდამოდ რჩება">lasts forever</em>
+        </h3>
+        <p data-en="Based in the underground of the city, Nightline Tattooer is a one-chair private studio dedicated to precise, intentional work. Every session is a collaboration — your vision, refined through years of craft." data-ka="ქალაქის ცენტრში მდებარე Nightline Tattooer არის კერძო სტუდია, სადაც ყველა ნამუშევარი ზუსტობითა და განზრახვით იქმნება. თითოეული სეანსი თანამშრომლობაა — შენი ხედვა, წლების გამოცდილებით დახვეწილი.">Based in the underground of the city, Nightline Tattooer is a one-chair private studio dedicated to precise, intentional work. Every session is a collaboration — your vision, refined through years of craft.</p>
+        <p data-en="Specialising in fine-line, blackwork, and dark realism, the studio accepts a limited number of clients per month to ensure every piece receives undivided attention." data-ka="სტუდია სპეციალიზდება წვრილ ხაზში, ბლეკვორქსა და მუქ რეალიზმში. თვეში შეზღუდული რაოდენობის კლიენტს ვიღებთ, რათა ყველა ნამუშევარი სათანადო ყურადღებით შესრულდეს.">Specialising in fine-line, blackwork, and dark realism, the studio accepts a limited number of clients per month to ensure every piece receives undivided attention.</p>
+        <ul class="about-list">
+          <li data-en="Private studio environment" data-ka="კერძო სტუდიის გარემო">Private studio environment</li>
+          <li data-en="Custom designs only" data-ka="მხოლოდ ინდივიდუალური დიზაინი">Custom designs only</li>
+          <li data-en="All skin types welcomed" data-ka="ყველა ტიპის კანი მისაღებია">All skin types welcomed</li>
+          <li data-en="Consultation before every session" data-ka="კონსულტაცია ყოველი სეანსის წინ">Consultation before every session</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 data-en="Contact" data-ka="კონტაქტი">Contact</h2>
+    </div>
+    <div class="contact-inner">
+      <div class="contact-left">
+        <p class="contact-intro" data-en="Ready to start your piece? Reach out via call or Instagram. Response within 48 hours." data-ka="მზად ხარ დაიწყო? დაგვიკავშირდი ზარით ან Instagram-ით. პასუხი 48 საათში.">Ready to start your piece? Reach out via call or Instagram. Response within 48 hours.</p>
+        <div class="contact-links">
+          <a href="tel:597001706" class="contact-link" data-en="Call" data-ka="დარეკვა">Call</a>
+          <a href="https://www.instagram.com/nightline_tattooer/" target="_blank" class="contact-link">@nightlinetattooer</a>
+        </div>
+      <div class="contact-right">
+        <div class="contact-deco">NL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p data-en="© 2025 Nightline Tattooer. All rights reserved." data-ka="© 2025 Nightline Tattooer. ყველა უფლება დაცულია.">&copy; 2025 Nightline Tattooer. All rights reserved.</p>
+    <p data-en="Tattoo art is permanent. Choose your artist wisely." data-ka="ტატუირება სამუდამოა. აირჩიე ოსტატი გონივრულად.">Tattoo art is permanent. Choose your artist wisely.</p>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <div class="lb-backdrop" id="lbBackdrop"></div>
+    <div class="lb-panel">
+      <button class="lb-close" id="lbClose">&#10005;</button>
+      <div class="lb-img-wrap">
+        <div class="lb-img-placeholder" id="lbImg">
+          <span id="lbImgNum"></span>
+        </div>
+      </div>
+      <div class="lb-info">
+        <h3 id="lbTitle"></h3>
+        <p id="lbStyle"></p>
+        <p id="lbDesc"></p>
+        <div class="lb-meta">
+          <div class="lb-meta-item">
+            <span class="lb-meta-label" data-en="Size" data-ka="ზომა">Size</span>
+            <span class="lb-meta-value" id="lbSize"></span>
+          </div>
+          <div class="lb-meta-item">
+            <span class="lb-meta-label" data-en="Price" data-ka="ფასი">Price</span>
+            <span class="lb-meta-value lb-price" id="lbPrice"></span>
+          </div>
+        </div>
+        <div class="lb-tags" id="lbTags"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  // ─── TATTOO DATA ──────────────────────────────────────────────────
+  const TATTOOS = [
+    { id:1,  title:"Moth & Moon",          desc:"Delicate moth rendered in single-needle fine line with crescent moon backdrop. Placed on inner forearm.",      tags:["single-needle","nature","feminine"],  size:"5 × 4 cm",   price:"₾150" },
+    { id:2,  title:"Serpent Coil",          desc:"Bold blackwork serpent wrapping in tight coil. High contrast, solid fills with fine detail scales.",           tags:["serpent","bold","blackwork"],         size:"8 × 8 cm",   price:"₾220" },
+    { id:3,  title:"Geometric Wolf",        desc:"Wolf head broken into precise geometric facets. Low-poly aesthetic with crisp linework.",                      tags:["wolf","geometric","animals"],         size:"12 × 10 cm", price:"₾350" },
+    { id:4,  title:"Portrait Study",        desc:"Hyperrealistic eye portrait capturing every lash and reflection. Took 6 hours of focused work.",              tags:["portrait","realism","eye"],           size:"9 × 7 cm",   price:"₾280" },
+    { id:5,  title:"Botanical Spine",       desc:"Cascading botanical elements following the natural spine curve. Fern, eucalyptus, and wildflower details.",   tags:["botanical","spine","nature"],         size:"30 × 6 cm",  price:"₾480" },
+    { id:6,  title:"Sacred Geometry",       desc:"Intricate sacred geometry mandala with precise compass-drawn accuracy. Center sternum placement.",             tags:["mandala","sacred","geometry"],        size:"14 × 14 cm", price:"₾420" },
+    { id:7,  title:"Raven Portrait",        desc:"Dark realism raven with textured feather detail and menacing gaze. Shoulder cap piece.",                      tags:["raven","bird","dark"],                size:"15 × 12 cm", price:"₾500" },
+    { id:8,  title:"Micro Butterfly",       desc:"Tiny fine-line butterfly with hairline wing details. Behind-ear placement.",                                   tags:["butterfly","micro","delicate"],       size:"3 × 2 cm",   price:"₾100" },
+    { id:9,  title:"Tribal Band",           desc:"Custom tribal-inspired arm band with interlocking patterns. Bold and graphic.",                                tags:["tribal","band","bold"],               size:"20 × 4 cm",  price:"₾300" },
+    { id:10, title:"Skull & Roses",         desc:"Classic memento mori with hyper-detailed skull and fresh rose juxtaposition. Rich shadow work.",              tags:["skull","roses","classic"],            size:"16 × 14 cm", price:"₾550" },
+    { id:11, title:"Fibonacci Spiral",      desc:"Mathematical Fibonacci spiral with golden ratio overlays. Clean linework, wrist placement.",                  tags:["fibonacci","math","minimal"],         size:"5 × 5 cm",   price:"₾140" },
+    { id:12, title:"Lioness",               desc:"Female lion gaze with incredible mane texture. Thigh piece that took two sessions.",                          tags:["lion","realistic","power"],           size:"18 × 16 cm", price:"₾620" },
+    { id:13, title:"Minimalist Mountains",  desc:"Single continuous line forming mountain silhouette. Collarbone placement for elegant simplicity.",            tags:["mountains","minimal","landscape"],    size:"10 × 3 cm",  price:"₾130" },
+    { id:14, title:"Koi Fish",              desc:"Bold blackwork koi with flowing fins and water ripples. Dynamic composition on calf.",                        tags:["koi","fish","japanese"],              size:"17 × 10 cm", price:"₾460" },
+    { id:15, title:"Sun & Star Map",        desc:"Celestial map with sun at center and radiating constellation lines. Chest piece.",                            tags:["celestial","stars","geometric"],      size:"12 × 12 cm", price:"₾380" },
+    { id:16, title:"Ghost Orchid",          desc:"Rare ghost orchid in hairline detail. Botanical accuracy with dreamlike quality.",                            tags:["flower","botanical","rare"],          size:"8 × 6 cm",   price:"₾200" },
+    { id:17, title:"Dark Forest",           desc:"Dense forest silhouette with layered depth. Deep blacks and negative space work together.",                   tags:["forest","landscape","dark"],          size:"15 × 12 cm", price:"₾430" },
+    { id:18, title:"Scorpion",              desc:"Photorealistic scorpion with every segment and claw rendered. Intimidating ribcage placement.",               tags:["scorpion","realism","creature"],      size:"10 × 8 cm",  price:"₾310" },
+    { id:19, title:"Water & Wave",          desc:"Hokusai-inspired wave broken into geometric fragments. Shoulder blade composition.",                          tags:["wave","japanese","geometric"],        size:"11 × 9 cm",  price:"₾290" },
+    { id:20, title:"Minimalist Cat",        desc:"Single-line minimalist cat silhouette. Playful and precise. Ankle placement.",                                tags:["cat","minimal","playful"],            size:"4 × 4 cm",   price:"₾110" },
+    { id:21, title:"Viking Compass",        desc:"Vegvisir Nordic compass with full blackwork fill. Palm-size, deeply symbolic piece.",                         tags:["compass","nordic","symbol"],          size:"6 × 6 cm",   price:"₾180" },
+    { id:22, title:"Eye of Providence",     desc:"All-seeing eye within geometric pyramid. Fine linework with dot-work shading.",                               tags:["eye","symbol","geometric"],           size:"8 × 7 cm",   price:"₾230" },
+    { id:23, title:"Phoenix Rising",        desc:"Full back phoenix rising from ash with flame detail that took four sessions to complete.",                    tags:["phoenix","fire","back"],              size:"40 × 30 cm", price:"₾1,400" },
+    { id:24, title:"Lavender Sprig",        desc:"Delicate lavender with individually rendered florets. Wrist placement, fine single-needle technique.",       tags:["lavender","flower","delicate"],       size:"6 × 3 cm",   price:"₾120" },
+    { id:25, title:"Bear Skull",            desc:"Bold bear skull with antler arrangement. Gothic and powerful energy. Upper arm piece.",                       tags:["skull","bear","dark"],                size:"10 × 9 cm",  price:"₾270" },
+    { id:26, title:"Crescent Phases",       desc:"Full moon phase sequence in fine geometric circles. Spine placement for long flowing composition.",           tags:["moon","celestial","phases"],          size:"22 × 4 cm",  price:"₾320" },
+    { id:27, title:"Tiger",                 desc:"Roaring tiger in dark realism style. Dramatic fur texture and shadow. Full sleeve element.",                  tags:["tiger","realism","power"],            size:"20 × 16 cm", price:"₾700" },
+    { id:28, title:"Compass Rose",          desc:"Eight-point compass rose with layered precision. Intricate but balanced. Back of hand.",                     tags:["compass","navigation","geometric"],   size:"7 × 7 cm",   price:"₾210" },
+    { id:29, title:"Leafy Monstera",        desc:"Monstera leaf in detailed botanical fine line. Popular houseplant, timeless tattoo execution.",              tags:["plant","botanical","modern"],         size:"7 × 5 cm",   price:"₾160" },
+    { id:30, title:"Samurai Helmet",        desc:"Japanese samurai kabuto in bold blackwork. Intensely detailed and culturally rich piece.",                    tags:["japanese","samurai","cultural"],      size:"14 × 13 cm", price:"₾490" },
+    { id:31, title:"Horned Skull",          desc:"Skull wearing horned crown with deep shadow rendering and bone texture.",                                      tags:["skull","dark","realism"],             size:"11 × 9 cm",  price:"₾340" },
+    { id:32, title:"Constellation Lyra",    desc:"Lyra constellation mapped precisely to the night sky. Fine dots and hairline connections.",                  tags:["constellation","stars","minimal"],    size:"5 × 5 cm",   price:"₾130" },
+    { id:33, title:"Black Dahlia",          desc:"Dahlia bloom in extremely fine concentric detail. Looks like pencil sketch on skin.",                        tags:["flower","dahlia","fine"],             size:"8 × 7 cm",   price:"₾195" },
+    { id:34, title:"Metatron's Cube",       desc:"Sacred geometry Metatron's Cube with full linework detail. Inner sternum placement.",                         tags:["sacred","geometry","spiritual"],      size:"13 × 13 cm", price:"₾400" },
+    { id:35, title:"Sphynx Cat",            desc:"Sphynx cat portrait with every wrinkle and whisker captured. Pet memorial piece.",                            tags:["cat","portrait","memorial"],          size:"9 × 8 cm",   price:"₾260" },
+    { id:36, title:"Dark Moth",             desc:"Death's head hawk moth in solid blackwork with bold wings spread. Sternum piece.",                           tags:["moth","dark","blackwork"],            size:"14 × 11 cm", price:"₾410" },
+    { id:37, title:"Arrow & Feather",       desc:"Native-inspired arrow with feather fletching in delicate fine line. Forearm placement.",                     tags:["arrow","native","minimal"],           size:"12 × 2 cm",  price:"₾145" },
+    { id:38, title:"Snake & Dagger",        desc:"Dagger wrapped in serpent coil. Iconic symbol rendered with bold linework and heavy blacks.",                tags:["snake","dagger","classic"],           size:"10 × 5 cm",  price:"₾240" },
+    { id:39, title:"Howling Wolf Moon",     desc:"Wolf howling at full moon in dark realism. Night scene with atmospheric fog effect.",                        tags:["wolf","moon","nature"],               size:"16 × 15 cm", price:"₾580" },
+    { id:40, title:"Micro Anchor",          desc:"Tiny precision anchor with fine rope detail. Hidden behind the ear for subtle placement.",                   tags:["anchor","nautical","micro"],          size:"2 × 2 cm",   price:"₾90" },
+    { id:41, title:"Owl & Key",             desc:"Wise owl clutching an ornate key. Symbolism of knowledge and unlocking potential.",                          tags:["owl","symbolic","realism"],           size:"10 × 8 cm",  price:"₾295" },
+    { id:42, title:"Floral Sleeve Element", desc:"Single sleeve element — blossoming peony with floating petals. Part of full sleeve project.",              tags:["peony","sleeve","botanical"],         size:"13 × 11 cm", price:"₾370" },
+    { id:43, title:"Dark Mandala",          desc:"Full blackwork mandala with zero shading variation — all solid fill and negative space.",                    tags:["mandala","blackwork","bold"],         size:"15 × 15 cm", price:"₾450" },
+    { id:44, title:"Sparrow",               desc:"Classic sailor-style sparrow reimagined in fine-line technique. Subtle, elegant, timeless.",                 tags:["sparrow","bird","nautical"],          size:"5 × 4 cm",   price:"₾135" },
+    { id:45, title:"Skull Moth",            desc:"Skull pattern on moth wings — death's head moth in full realism. Gothic and beautiful simultaneously.",      tags:["skull","moth","dark"],                size:"10 × 9 cm",  price:"₾315" },
+    { id:46, title:"Japanese Dragon",       desc:"Eastern dragon winding up the forearm in dense blackwork. Scales rendered with intricate detail.",           tags:["dragon","japanese","blackwork"],      size:"28 × 8 cm",  price:"₾680" },
+    { id:47, title:"Celestial Sun",         desc:"Ornamental sun with radiating ray patterns. Clean geometric lines with sharp definition.",                   tags:["sun","celestial","ornamental"],       size:"9 × 9 cm",   price:"₾245" },
+    { id:48, title:"Pine Silhouette",       desc:"Lone pine tree silhouette in minimal fine line. Perfect for the nature-minded minimalist.",                  tags:["pine","tree","landscape"],            size:"6 × 4 cm",   price:"₾125" },
+    { id:49, title:"Broken Clock",          desc:"Clock face melting and cracking — surrealist take on time and mortality. Inner arm.",                        tags:["clock","surreal","time"],             size:"10 × 8 cm",  price:"₾285" },
+    { id:50, title:"Full Moon Circle",      desc:"Perfect circle tattoo — solid full moon disc. Deceptively simple, requires incredible steady hand.",         tags:["moon","minimal","blackwork"],         size:"4 × 4 cm",   price:"₾120" },
+  ];
+
+  // ─── LANGUAGE ────────────────────────────────────────────────────
+  let currentLang = localStorage.getItem('lang') || 'en';
+
+  function setLang(lang) {
+    currentLang = lang;
+    localStorage.setItem('lang', lang);
+    document.documentElement.lang = lang;
+    document.body.classList.toggle('lang-ka', lang === 'ka');
+
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const val = el.getAttribute('data-' + lang);
+      if (!val) return;
+      // Use innerHTML for elements that may contain <br>
+      if (val.includes('<br') || el.innerHTML.includes('<br')) {
+        el.innerHTML = val;
+      } else {
+        el.textContent = val;
+      }
+    });
+
+    document.getElementById('btnEN').classList.toggle('active', lang === 'en');
+    document.getElementById('btnKA').classList.toggle('active', lang === 'ka');
+  }
+
+  // Apply on page load
+  setLang(currentLang);
+
+  // ─── NAV SCROLL ──────────────────────────────────────────────────
+  window.addEventListener('scroll', () => {
+    document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  // ─── MOBILE MENU ─────────────────────────────────────────────────
+  const navMenu    = document.getElementById('navMenu');
+  const mobileMenu = document.getElementById('mobileMenu');
+  navMenu.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+  });
+  document.querySelectorAll('.mm-link').forEach(link => {
+    link.addEventListener('click', () => {
+      navMenu.classList.remove('open');
+      mobileMenu.classList.remove('open');
+    });
+  });
+
+  // ─── BUILD GRID ──────────────────────────────────────────────────
+  const grid = document.getElementById('grid');
+
+  TATTOOS.forEach((tattoo, idx) => {
+    const item = document.createElement('div');
+    item.className = 'grid-item reveal';
+    item.style.transitionDelay = `${(idx % 12) * 0.04}s`;
+    item.innerHTML = `
+      <div class="thumb-placeholder">
+        <span class="thumb-num">${String(tattoo.id).padStart(2,'0')}</span>
+        <span>${tattoo.title}</span>
+      </div>
+      <div class="overlay">
+        <span class="overlay-label">${tattoo.price}</span>
+      </div>
+    `;
+    item.addEventListener('click', () => openLightbox(tattoo));
+    grid.appendChild(item);
+  });
+
+  requestAnimationFrame(() => {
+    document.querySelectorAll('.grid-item').forEach(el => {
+      setTimeout(() => el.classList.add('in'), 50);
+    });
+  });
+
+  // ─── LIGHTBOX ────────────────────────────────────────────────────
+  function openLightbox(tattoo) {
+    document.getElementById('lbImgNum').textContent = String(tattoo.id).padStart(2,'0');
+    document.getElementById('lbTitle').textContent  = tattoo.title;
+    document.getElementById('lbStyle').textContent  = tattoo.size;
+    document.getElementById('lbDesc').textContent   = tattoo.desc;
+    document.getElementById('lbSize').textContent   = tattoo.size;
+    document.getElementById('lbPrice').textContent  = tattoo.price;
+    document.getElementById('lbTags').innerHTML = tattoo.tags
+      .map(t => `<span class="lb-tag">${t}</span>`).join('');
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('lbClose').addEventListener('click', closeLightbox);
+  document.getElementById('lbBackdrop').addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+  // ─── SCROLL REVEAL ───────────────────────────────────────────────
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.about-inner, .contact-inner').forEach(el => {
+    el.classList.add('reveal');
+    observer.observe(el);
+  });
+  </script>
+</body>
+</html>
